@@ -22,7 +22,9 @@
 }
 
 body {
+    
     font-family: 'Outfit', sans-serif;
+    font-display: swap; /* Add this if it's in a @font-face, otherwise it's handled in the Google URL */
     background-color: var(--bg-sage);
     color: var(--text-dark);
     line-height: 1.6;
